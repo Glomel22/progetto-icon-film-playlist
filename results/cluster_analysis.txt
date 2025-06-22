@@ -1,0 +1,47 @@
+ANALISI DEI CLUSTER
+==================================================
+
+CLUSTER 0
+--------------------
+Dimensione: 307 film (28.5%)
+Rating medio: 3.064
+Generi principali:
+  - Comedy: 99.7%
+  - Romance: 20.5%
+  - Drama: 16.6%
+Interpretazione: Commedie Mainstream
+
+CLUSTER 1
+--------------------
+Dimensione: 588 film (54.5%)
+Rating medio: 3.310
+Generi principali:
+  - Drama: 65.0%
+  - Thriller: 21.8%
+  - Romance: 15.3%
+  - Action: 12.9%
+Interpretazione: Drammatici e Thriller
+
+CLUSTER 2
+--------------------
+Dimensione: 150 film (13.9%)
+Rating medio: 3.072
+Generi principali:
+  - Adventure: 70.0%
+  - Action: 57.3%
+  - Sci-Fi: 46.7%
+  - Thriller: 23.3%
+  - Children's: 22.0%
+Interpretazione: Avventura, Azione e Fantascienza
+
+CLUSTER 3
+--------------------
+Dimensione: 33 film (3.1%)
+Rating medio: 3.313
+Generi principali:
+  - Animation: 100.0%
+  - Children's: 81.8%
+  - Musical: 42.4%
+  - Comedy: 21.2%
+Interpretazione: Film d'Animazione e per Bambini (Nicchia)
+

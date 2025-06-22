@@ -1,0 +1,90 @@
+RISULTATI DELLA CLASSIFICAZIONE
+==================================================
+
+--- BASELINE ---
+------------------------------
+Accuratezza: 0.3296
+Precision (Macro): 0.0824
+Recall (Macro): 0.2500
+F1-Score (Macro): 0.1240
+
+Report di Classificazione per Classe:
+              precision    recall  f1-score   support
+
+           0       0.33      1.00      0.50        89
+           1       0.00      0.00      0.00       148
+           2       0.00      0.00      0.00        26
+           3       0.00      0.00      0.00         7
+
+    accuracy                           0.33       270
+   macro avg       0.08      0.25      0.12       270
+weighted avg       0.11      0.33      0.16       270
+
+--------------------------------------------------
+
+--- DECISIONTREE ---
+------------------------------
+Parametri ottimali: {'criterion': 'gini', 'max_depth': None, 'min_samples_leaf': 2, 'min_samples_split': 2}
+Accuratezza: 0.9852
+Precision (Macro): 0.9770
+Recall (Macro): 0.9173
+F1-Score (Macro): 0.9411
+
+Report di Classificazione per Classe:
+              precision    recall  f1-score   support
+
+           0       0.99      1.00      0.99        89
+           1       0.99      0.99      0.99       148
+           2       0.93      0.96      0.94        26
+           3       1.00      0.71      0.83         7
+
+    accuracy                           0.99       270
+   macro avg       0.98      0.92      0.94       270
+weighted avg       0.99      0.99      0.98       270
+
+--------------------------------------------------
+
+--- RANDOMFOREST ---
+------------------------------
+Parametri ottimali: {'max_depth': None, 'min_samples_leaf': 2, 'min_samples_split': 10, 'n_estimators': 100}
+Accuratezza: 0.9889
+Precision (Macro): 0.9859
+Recall (Macro): 0.9530
+F1-Score (Macro): 0.9681
+
+Report di Classificazione per Classe:
+              precision    recall  f1-score   support
+
+           0       0.99      1.00      0.99        89
+           1       0.99      0.99      0.99       148
+           2       0.96      0.96      0.96        26
+           3       1.00      0.86      0.92         7
+
+    accuracy                           0.99       270
+   macro avg       0.99      0.95      0.97       270
+weighted avg       0.99      0.99      0.99       270
+
+--------------------------------------------------
+
+--- LOGISTICREGRESSION ---
+------------------------------
+Parametri ottimali: {'C': 10, 'penalty': 'l2', 'solver': 'liblinear'}
+Accuratezza: 0.9889
+Precision (Macro): 0.9741
+Recall (Macro): 0.9609
+F1-Score (Macro): 0.9654
+
+Report di Classificazione per Classe:
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00        89
+           1       1.00      0.99      0.99       148
+           2       0.90      1.00      0.95        26
+           3       1.00      0.86      0.92         7
+
+    accuracy                           0.99       270
+   macro avg       0.97      0.96      0.97       270
+weighted avg       0.99      0.99      0.99       270
+
+--------------------------------------------------
+

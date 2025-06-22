@@ -1,0 +1,9 @@
+Cross-Validation Results (5-fold)
+Accuracy: 0.3980 ± 0.0391
+F1-Score: 0.2374 ± 0.0216
+Individual fold results:
+  Fold 1: Acc=0.4491, F1=0.2700
+  Fold 2: Acc=0.4074, F1=0.2469
+  Fold 3: Acc=0.3287, F1=0.2058
+  Fold 4: Acc=0.3953, F1=0.2243
+  Fold 5: Acc=0.4093, F1=0.2399

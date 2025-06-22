@@ -1,0 +1,11 @@
+Analisi della Struttura della Rete Bayesiana
+==================================================
+
+1. Il 'cluster' è direttamente influenzato da: []
+   Questo ha senso: il tipo di film dipende dai suoi generi e dal suo successo (rating).
+
+2. Nodi più centrali (hub) della rete: [('cluster', 8), ('Drama', 6), ('Thriller', 5), ('Action', 4), ("Children's", 4)]
+   Spesso 'Drama', 'Comedy' e 'rating_discreto' sono hub, indicando la loro importanza nel definire le relazioni tra film.
+
+3. Analisi di relazioni specifiche:
+   - Non c'è un'influenza diretta appresa tra l'anno di uscita e il genere 'Drama'.

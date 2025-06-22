@@ -1,0 +1,20 @@
+Valutazione Robusta della Rete Bayesiana
+============================================================
+
+1. RISULTATI CROSS-VALIDATION (5-fold):
+   Accuracy: 0.3980 (±0.0391)
+   F1-Score: 0.2374 (±0.0216)
+   Range Accuracy: [0.3287, 0.4491]
+
+2. RISULTATI TEST SET:
+   Accuracy: 0.4111
+   F1-Score: 0.2211
+
+3. ANALISI STABILITÀ:
+   ✓ Modello STABILE (std = 0.0391 < 0.05)
+   Coefficiente di variazione: 0.098
+
+4. CONFRONTO CON BASELINE:
+   Baseline (classe maggioritaria): 0.5481
+   Miglioramento: +-27.4%
+
